@@ -1,2 +1,5 @@
 # task-tracker-js
-Task Tracker Challenge in Javascript
+
+Task Tracker Challenge in Javascript.
+
+https://roadmap.sh/projects/task-tracker
