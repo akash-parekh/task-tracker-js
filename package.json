@@ -4,7 +4,12 @@
     "description": "Task Tracker Challenge in Javascript.",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "ts-node src/index.ts",
+        "build": "tsc",
+        "cli": "node dist/index.js"
+    },
+    "bin": {
+        "task-cli": "./dist/index.js"
     },
     "repository": {
         "type": "git",
