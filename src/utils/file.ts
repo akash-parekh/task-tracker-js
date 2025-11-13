@@ -13,6 +13,6 @@ export const readTasks = async (): Promise<Task[]> => {
     }
 };
 
-export const writeTask = async (tasks: Task[]): Promise<void> => {
+export const writeTasks = async (tasks: Task[]): Promise<void> => {
     await fs.writeFile(FILE_PATH, JSON.stringify(tasks, null, 2));
 };
